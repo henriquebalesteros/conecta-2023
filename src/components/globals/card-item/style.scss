@@ -1,0 +1,26 @@
+.card-item{
+    display: flex;
+    flex-direction: row;
+    max-width: 280px;
+    max-height: 100px;
+}
+.card-image{
+    display: flex;
+    width: 99px;
+}
+.card-title{
+    display: flex;
+    font-size: 38px;
+    width: 160px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrapper{
+    z-index: 1;
+}
+
+.strong-text{
+    font-weight: bold;
+}

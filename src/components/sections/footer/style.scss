@@ -1,0 +1,39 @@
+.footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(6,13,22,1) 35%, rgba(17,47,78,1) 100%);
+    width: 100%;
+    padding: 100px;
+    background-image: url(./bg-footer.png);
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-nstech-description{
+    p{
+        letter-spacing: 0.3px;
+        font-size: 14px;
+    }
+    img{
+        width: 150px;
+        height: 40px;
+        margin-right: 40px;
+    }
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-wrapper{
+    font-size: 14px;
+}
+
+.footer-logo-conecta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 320px;
+    }
+}

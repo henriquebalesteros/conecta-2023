@@ -1,0 +1,24 @@
+.agenda-item{
+    border-top: 1px solid #ff3d03 ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    width: 1000px;
+    z-index: 1;
+}
+
+.event-time{
+    font-size: 22px;
+    color:#ff3d03;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.event-speaker{
+    font-size: 18px;
+    color:#ff3d03;
+}
+
+.event-title{
+    font-size: 20px;
+}

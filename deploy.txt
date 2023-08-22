@@ -1,0 +1,10 @@
+Passos para subir para prod
+
+Instalar Azure Devops com o Home Brew (Mac):
+brew update && brew install azure-cli
+
+Depois de instalador rodar:
+chmod +x deploy.sh
+
+Depois rodar:
+accountKey='YulosAuOnkq+jZGiAhlH2pov+nKVWGsAqqZ+rrBV7G+D463UHpN5kkJAKvg4KP1xUa2apZKJ09cA+AStrTxh6g==' ./deploy.sh

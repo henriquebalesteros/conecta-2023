@@ -1,0 +1,23 @@
+.submit-button{
+    background: #ff3d03;
+    color: white;
+    font-family: Barlow;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: none;
+}
+.submit-button:hover{
+    background: #ffffff;
+    color: #ff3d03;
+    font-family: Barlow;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: none;
+    transition: 0.5s;
+}
